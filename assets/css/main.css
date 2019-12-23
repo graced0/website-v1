@@ -19,7 +19,7 @@ aside.topnav{
     color: #707070;
     display: grid;
     grid-template-columns: auto 40px;
-    padding-top: 2em;
+    padding-top: 1.5em;
     padding-left: 2em;
     padding-right: 2em;
 }
@@ -31,7 +31,6 @@ h1.name {
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-bottom-color: #AAD88C;
-    padding-bottom: 0.25em;
 }
 h1.name a{
     color: #707070;
@@ -70,7 +69,7 @@ img.close {
     cursor: pointer;
     margin-left: 100%;
     padding-bottom: 0.25em;
-    padding-top: 2.5em;
+    padding-top: 2.0em;
 }
 ul {
     list-style-type: none;
@@ -83,13 +82,13 @@ ul li a {
     color: #707070;
     display: block;
 }
-footer.socials {
+footer.mobile {
     display: flex;
     justify-content: center;
     padding-right: 1em;
     margin: 6em;
 }
-footer img {
+footer.mobile img {
     height: 45px;
     width: 45px;
     padding-left: 1em;
@@ -97,9 +96,9 @@ footer img {
 main {
     background: white;
     margin: 1em;
-    padding: 1em, 1em, 0, 1em;
+    padding: 1em;
 }
-p {
+p.aboutme {
     font-size: 140%;
     line-height: 1.5em;
     padding: 0.5em;
@@ -114,12 +113,13 @@ img.me {
 }
 footer.desktop {
     display: none;
-    padding: 0;
-    margin: 0;
 }
-p.work {
+p.mywork {
     display: block;
     margin: auto;
+    font-size: 140%;
+    line-height: 1.5em;
+    padding: 0.5em;
 }
 
 
@@ -130,10 +130,10 @@ p.work {
     img.close {
         display: none;
     }
-    footer.socials {
+    footer.mobile {
         display: none;
     }
-    footer img {
+    footer.mobile img {
         display: none;
     }
     aside.closebutton {
@@ -142,7 +142,7 @@ p.work {
     nav {
         display: inline;
     }
-    ul li{
+    ul li {
         float: left;
         display: inline;
         padding-left: 3em;
@@ -163,14 +163,15 @@ p.work {
     li.homepage {
         display:none;
     }
-    p {
+    p.aboutme {
         display: block;
         float: left;
         line-height: 2.5;
-        font-size: 158%;
+        font-size: 150%;
     }
     main {
         margin: 3em;
+        margin-bottom: 1.5em;
         display: flex;
     }
     img.me {
@@ -181,20 +182,20 @@ p.work {
         padding-bottom: 1em;
     }
     footer.desktop {
-        display: block;
-        margin-left: 2em;
-        margin-right: 2em;
+        display: inline;
     }
     p.copyright {
-        font-size: 25px;
+        font-size: 30px;
         margin: 0;
-        margin-left: 1em;
         padding: 0;
+        float: left;
+        margin-left: 2em;
+
     }
     footer.desktop img {
-        display: inline;
         float: right;
-        margin-right: 2em;
+        margin-right: 3.5em;
+        padding: 0;
     }
 
 }
