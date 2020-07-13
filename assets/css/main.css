@@ -114,14 +114,17 @@ img.me {
 footer.desktop {
     display: none;
 }
-p.mywork {
-    display: block;
-    margin: auto;
-    font-size: 140%;
-    line-height: 1.5em;
-    padding: 0.5em;
+th {
+    padding-left: 1em;
 }
-
+iframe {
+    width: 224px;
+    height: 126px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
 
 @media only screen and (min-width: 768px) {
     img.open {
@@ -197,5 +200,28 @@ p.mywork {
         margin-right: 3.5em;
         padding: 0;
     }
-
+    td, h2 {
+        font-size: 140%;
+        padding: 0;
+        margin: 0;
+    }
+    td, p {
+        padding: 0;
+        margin: 0;
+    }
+    th {
+        padding-left: 2em;
+        text-align: right;
+    }
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+    main.work {
+        padding-right: 3em;
+        padding-left: 3em;
+    }
+    table {
+        border-spacing: 0 3em;
+    }
 }
