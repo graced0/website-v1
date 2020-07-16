@@ -75,6 +75,7 @@ ul {
     list-style-type: none;
     padding:0;
     padding-top: 20%;
+    padding-left: 5em;
 }
 ul li a {
     text-transform: lowercase;
@@ -115,19 +116,26 @@ img.me {
 footer.desktop {
     display: none;
 }
-th {
-    padding-left: 1em;
+h1.title {
+    padding: 0;
+    margin: 0;
+    font-size: 200%;
+}
+p.description {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 130%;
 }
 iframe {
     width: 224px;
     height: 126px;
 }
 table {
-    border-collapse: separate;
-    border-spacing: 0 0.5em;
+    text-align: left;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1086px) {
     img.open {
         display: none;
     }
@@ -195,25 +203,15 @@ table {
         padding: 0;
         float: left;
         margin-left: 2em;
-
     }
     footer.desktop img {
         float: right;
         margin-right: 3.5em;
         padding: 0;
     }
-    td, h2 {
-        font-size: 140%;
+    h1.work {
         padding: 0;
         margin: 0;
-    }
-    td, p {
-        padding: 0;
-        margin: 0;
-    }
-    th {
-        padding-left: 2em;
-        text-align: right;
     }
     iframe {
         width: 560px;
@@ -224,6 +222,7 @@ table {
         padding-left: 5em;
     }
     table {
-        border-spacing: 0 3em;
+        padding-top: 3em;
+        margin-right: 23em;                
     }
 }
