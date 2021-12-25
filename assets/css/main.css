@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 
+  a:hover {
+    color: rgb(142, 72, 235);
+  }
 body, html {
     font-family: 'Abel', sans-serif;
     height: 100%;
@@ -7,11 +10,7 @@ body, html {
     padding: 0;
 }
 body {
-    background: rgb(149,238,154);
-    background: -moz-linear-gradient(0deg, rgba(149,238,154,0.87) 0%, rgba(170,243,219,0.3) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(149,238,154,0.87) 0%, rgba(170,243,219,0.3) 100%);
-    background: linear-gradient(0deg, rgba(149,238,154,0.87) 0%, rgba(170,243,219,0.3) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#95ee9a",endColorstr="#aaf3db",GradientType=1);
+    background:rgb(155,222,172);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -30,10 +29,10 @@ h1.name {
     margin-right: auto;
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color: #AAD88C;
+    border-bottom-color: #6e6e6e;
 }
 h1.name a{
-    color: #707070;
+    color: #6e6e6e;
     text-decoration: none;
 }
 img.open{
