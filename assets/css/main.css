@@ -10,7 +10,7 @@ body, html {
     padding: 0;
 }
 body {
-    background:rgb(155,222,172);
+    background:rgba(155, 222, 172, 0.8);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
